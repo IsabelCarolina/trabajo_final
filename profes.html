@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Proyectos de Título</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <style>
+            .idea{
+                weith:100%;
+                clear:both;
+                margin-left: -0.75rem;
+            }
+            .idea img{ 
+                width:100%; 
+                height: auto; 
+            } 
+            .esconde{
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Resumen <span>de Proyectos de Título</span></a>
+            <a href="profes.html" class="active"><span>Proyectos por </span>Profesor(a) Guía</a>
+            <a href="titulos.html"><span>Proyectos por </span>Título Profesional</a>
+            <a href="semestres.html"><span>Proyectos por </span>Semestre</a>
+        </nav>
+        <header>
+            <h1>Proyectos por Profesor(a) Guía</h1>
+            <select>
+                <option value="Reyes León, Daniel" selected>Daniel Reyes León</option>
+                <option value="Meza Navarro, Andrea">Andrea Meza Navarro</option>
+            </select>
+        </header>
+        <main>
+           
+            <div class= "info" id="primera">
+            <div class="medio"><img src="viz/fotoprofe.png"></div>
+            <div class="medio">
+                <h1> Daniel Reyes León</h1>
+                <p>Correo: danreyes@uchile.cl</p>
+                <p>Prof. Adjunto - Escuela de Pregrado</p>
+                <p>Artista y académico de:</p>
+                <p>Facultad de Arquitectura y Urbanismo Universidad de Chile</p>
+                <p>Grado/Título:</p>
+                <p>Licenciado en Arte en la Universidad Católica de Chile</p>
+            </div>
+            <div class="completo"><img src="viz/datosprofe-1.png"></div>
+            <div class="completo"><img src="viz/datosprofe-2.png"></div>
+            <div class="medio">
+            <p>Áreas prioritarias en investigación y
+            creación de la FAU</p>
+            <url>
+                <li> Área Prioritaria 7. Culturas visuales, materiales-inmateriales y mediales </li>
+                <li> Área Prioritaria 8. Fenómenos sensibles, perceptuales y corporales en el entorno </li>
+                </url>
+            <p>Líneas de Investigación del Departamento de Diseño</p>
+            <url>
+                <li> Materiales, Tecnologías y Procesos </li>
+                <li> Morfología, Percepción y Color </li>
+                <li> Estudios Visuales y Mediales </li>
+                </url>  
+             <p>Énfasis del Ciclo 3 del Plan de Estudios del Programa Académico</p>
+            <url>
+                <li> Creación </li>
+                </url>  
+            </div>
+            <div class="medio"><img src="viz/datosprofe-4.png"></div>
+            <div class="completo"><img src="viz/datosprofe-5.png"></div>
+            <div class="completo"><img src="viz/datosprofe-6.png"></div>
+            </div>
+            
+               <div class= "info esconde" id="segunda">
+            <div class="medio"><img src="viz/datosprofesora.png"></div>
+            <div class="medio"><img src="viz/datosprofesora-1.png"></div>
+            <div class="completo"><img src="viz/datosprofesora-2.png"></div>
+            <div class="completo"><img src="viz/datosprofesora-3.png"></div>
+            <div class="completo"><img src="viz/datosprofesora-4.png"></div>
+            <div class="completo"><img src="viz/datosprofesora-5.png"></div>
+            <div class="completo"><img src="viz/datosprofesora-6.png"></div>
+            <div class="completo">relacionados</div>
+            </div>
+            
+            <div class="doble">
+                <div class="uno">
+                    <p>¿Cómo se relaciona su nota aprobatoria previa, de Proyecto de Título I, con la nota definida por la comisión examinadora de Proyecto de Título II?</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65" id="slope"></svg>
+                </div>
+                <div class="otro">
+                    <p>¿Qué parte de las inscripciones en la asignatura de Proyecto de Título II con <span id="profe"></span> se han convertido en Exámenes de Título aprobados?</p>
+                    <div id="donnut"></div>
+                </div>    
+                <hr/>
+            </div>
+            <h2></h2>
+            <table>
+                <thead>
+                    <th>Egresado/a</th>
+                    <th>Título</th>
+                    <th>Semestre</th>
+                    <th>Proyecto</th>
+                    <th>Nota</th>
+                </thead>
+                <tbody id="mencion"></tbody>
+            </table>
+            <div id="palabreo"></div>           
+        </main>
+        <footer>
+            <p>
+                <small>
+                    <a href="https://github.com/profesorfaco/troncal" target="_blank">Diseño y visualización de información</a> | Este ejercicio, preparado por
+                    <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/profesorfaco">profesorfaco</a>, es publicado bajo licencia
+                    <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC 4.0</a>
+                </small>
+            </p>
+        </footer>
+        <script src="js/profes.js"></script>
+    </body>
+</html>
