@@ -13,8 +13,8 @@ em{
     font-weight: 500;
 }
 
-text.bg-primary {
-    background-color: rgb(1, 125, 73);!important;
+.text.bg-primary {
+    background-color: rgb(2, 115, 62) !important;
 }
 
 .table-responsive{
