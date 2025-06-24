@@ -1,375 +1,238 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 600">
-	<title>viz</title>
-	<style>
-		tspan { white-space:pre } 
-		.s0 { fill: #000000 } 
-		.s1 { mix-blend-mode: multiply;fill: none;stroke: #189af6;stroke-width: 9.1 } 
-		.s2 { mix-blend-mode: multiply;fill: none;stroke: #189af6;stroke-width: 2 } 
-		.s3 { mix-blend-mode: multiply;fill: none;stroke: #00c3ff;stroke-width: 3 } 
-		.s4 { mix-blend-mode: multiply;fill: none;stroke: #125389;stroke-width: 4.1 } 
-		.s5 { mix-blend-mode: multiply;fill: none;stroke: #189af6;stroke-width: 3 } 
-		.s6 { mix-blend-mode: multiply;fill: none;stroke: #189af6;stroke-width: 1 } 
-		.s7 { mix-blend-mode: multiply;fill: none;stroke: #189af6;stroke-width: 7.1 } 
-		.s8 { mix-blend-mode: multiply;fill: none;stroke: #125389;stroke-width: 22.3 } 
-		.s9 { mix-blend-mode: multiply;fill: none;stroke: #125389;stroke-width: 13.2 } 
-		.s10 { mix-blend-mode: multiply;fill: none;stroke: #125389;stroke-width: 10.1 } 
-		.s11 { mix-blend-mode: multiply;fill: none;stroke: #125389;stroke-width: 6.1 } 
-		.s12 { mix-blend-mode: multiply;fill: none;stroke: #189af6;stroke-width: 12.2 } 
-		.s13 { mix-blend-mode: multiply;fill: none;stroke: #189af6;stroke-width: 5.1 } 
-		.s14 { mix-blend-mode: multiply;fill: none;stroke: #189af6;stroke-width: 10.1 } 
-		.s15 { mix-blend-mode: multiply;fill: none;stroke: #00c3ff;stroke-width: 4.1 } 
-		.s16 { mix-blend-mode: multiply;fill: none;stroke: #189af6;stroke-width: 8.1 } 
-		.s17 { mix-blend-mode: multiply;fill: none;stroke: #00c3ff;stroke-width: 2 } 
-		.s18 { mix-blend-mode: multiply;fill: none;stroke: #00c3ff;stroke-width: 1 } 
-		.s19 { mix-blend-mode: multiply;fill: none;stroke: #125389;stroke-width: 3 } 
-		.s20 { mix-blend-mode: multiply;fill: none;stroke: #125389;stroke-width: 7.1 } 
-		.s21 { mix-blend-mode: multiply;fill: none;stroke: #189af6;stroke-width: 6.1 } 
-		.s22 { mix-blend-mode: multiply;fill: none;stroke: #125389;stroke-width: 1 } 
-		.s23 { mix-blend-mode: multiply;fill: none;stroke: #125389;stroke-width: 2 } 
-		.t24 { font-size: 11px;fill: #000000;font-family: Helvetica, Arial, sans-serif } 
-		.asterisco {fill: #666666; } 
-	</style>
-        <g id="visualization">
-            <g>
-                <path class="s0" d="m926 10h3v1h-3z" />
-                <path class="s0" d="m926 21h3v1h-3z" />
-                <path class="s0" d="m926 32h3v1h-3z" />
-                <path class="s0" d="m926 43h3v1.1h-3z" />
-                <path class="s0" d="m926 54.1h3v1h-3z" />
-                <path class="s0" d="m926 65.1h3v1h-3z" />
-                <path class="s0" d="m926 76.1h3v2h-3z" />
-                <path class="s0" d="m926 88.1h3v2h-3z" />
-                <path class="s0" d="m926 100.1h3v2.1h-3z" />
-                <path class="s0" d="m926 112.2h3v2h-3z" />
-                <path class="s0" d="m926 124.2h3v2h-3z" />
-                <path class="s0" d="m926 136.2h3v2.1h-3z" />
-                <path class="s0" d="m926 148.3h3v2h-3z" />
-                <path class="s0" d="m926 160.3h3v3h-3z" />
-                <path class="s0" d="m926 173.3h3v3.1h-3z" />
-                <path class="s0" d="m926 186.4h3v3h-3z" />
-                <path class="s0" d="m926 199.4h3v3.1h-3z" />
-                <path class="s0" d="m926 212.5h3v3h-3z" />
-                <path class="s0" d="m926 225.5h3v4.1h-3z" />
-                <path class="s0" d="m926 239.6h3v4h-3z" />
-                <path class="s0" d="m926 253.6h3v4.1h-3z" />
-                <path class="s0" d="m926 267.7h3v4h-3z" />
-                <path class="s0" d="m926 281.7h3v5.1h-3z" />
-                <path class="s0" d="m926 296.8h3v6.1h-3z" />
-                <path class="s0" d="m926 312.9h3v6.1h-3z" />
-                <path class="s0" d="m926 329h3v6.1h-3z" />
-                <path class="s0" d="m926 345.1h3v7.1h-3z" />
-                <path class="s0" d="m926 362.2h3v7.1h-3z" />
-                <path class="s0" d="m926 379.3h3v7.1h-3z" />
-                <path class="s0" d="m926 396.4h3v8.1h-3z" />
-                <path class="s0" d="m926 414.5h3v9.1h-3z" />
-                <path class="s0" d="m926 433.6h3v9.2h-3z" />
-                <path class="s0" d="m926 452.8h3v10.1h-3z" />
-                <path class="s0" d="m926 472.9h3v11.2h-3z" />
-                <path class="s0" d="m926 494.1h3v12.1h-3z" />
-                <path class="s0" d="m926 516.2h3v13.2h-3z" />
-                <path class="s0" d="m926 539.4h3v15.2h-3z" />
-                <path class="s0" d="m149 185h3v24.3h-3z" />
-                <path class="s0" d="m926 564.6h3v25.4h-3z" />
-                <path class="s0" d="m149 219.3h3v82.2h-3z" />
-                <path class="s0" d="m149 311.5h3v103.5h-3z" />
-            </g>
-            <g>
-                <g>
-                    <path class="s1" d="m152 372.9c387 0 387 46.2 774 46.2" />
-                </g>
-                <g>
-                    <path class="s2" d="m152 314.6c387 0 387-237.5 774-237.5" />
-                </g>
-                <g>
-                    <path class="s3" d="m152 205.8c387 0 387 335.1 774 335.1" />
-                </g>
-                <g>
-                    <path class="s4" d="m152 230.5c387 0 387-3 774-3" />
-                </g>
-                <g>
-                    <path class="s4" d="m152 234.6c387 0 387 7 774 7" />
-                </g>
-                <g>
-                    <path class="s5" d="m152 324.2c387 0 387-162.4 774-162.4" />
-                </g>
-                <g>
-                    <path class="s6" d="m152 414.5c387 0 387 175 774 175" />
-                </g>
-                <g>
-                    <path class="s7" d="m152 356.7c387 0 387-8.1 774-8.1" />
-                </g>
-                <g>
-                    <path class="s8" d="m152 290.4c387 0 387 287.4 774 287.4" />
-                </g>
-                <g>
-                    <path class="s9" d="m152 272.6c387 0 387 250.2 774 250.2" />
-                </g>
-                <g>
-                    <path class="s10" d="m152 260.9c387 0 387 217.1 774 217.1" />
-                </g>
-                <g>
-                    <path class="s11" d="m152 245.7c387 0 387 120.5 774 120.5" />
-                </g>
-                <g>
-                    <path class="s12" d="m152 407.9c387 0 387 140.7 774 140.7" />
-                </g>
-                <g>
-                    <path class="s13" d="m152 380c387 0 387 60.2 774 60.2" />
-                </g>
-                <g>
-                    <path class="s14" d="m152 396.7c387 0 387 104.5 774 104.5" />
-                </g>
-                <g>
-                    <path class="s15" d="m152 198.2c387 0 387 237.5 774 237.5" />
-                </g>
-                <g>
-                    <path class="s16" d="m152 386.6c387 0 387 72.2 774 72.2" />
-                </g>
-                <g>
-                    <path class="s2" d="m152 316.6c387 0 387-227.5 774-227.5" />
-                </g>
-                <g>
-                    <path class="s17" d="m152 201.2c387 0 387 252.6 774 252.6" />
-                </g>
-                <g>
-                    <path class="s18" d="m152 187.5c387 0 387-13.7 774-13.7" />
-                </g>
-                <g>
-                    <path class="s17" d="m152 208.3c387 0 387 357.4 774 357.4" />
-                </g>
-                <g>
-                    <path class="s6" d="m152 318.1c387 0 387-216.4 774-216.4" />
-                </g>
-                <g>
-                    <path class="s19" d="m152 238.1c387 0 387 18.1 774 18.1" />
-                </g>
-                <g>
-                    <path class="s18" d="m152 191.6c387 0 387 62.5 774 62.5" />
-                </g>
-                <g>
-                    <path class="s20" d="m152 252.3c387 0 387 130.5 774 130.5" />
-                </g>
-                <g>
-                    <path class="s2" d="m152 328.8c387 0 387-140.4 774-140.4" />
-                </g>
-                <g>
-                    <path class="s13" d="m152 339.4c387 0 387-39 774-39" />
-                </g>
-                <g>
-                    <path class="s16" d="m152 364.3c387 0 387 36.1 774 36.1" />
-                </g>
-                <g>
-                    <path class="s18" d="m152 193.6c387 0 387 103.7 774 103.7" />
-                </g>
-                <g>
-                    <path class="s21" d="m152 345c387 0 387-29.1 774-29.1" />
-                </g>
-                <g>
-                    <path class="s2" d="m152 326.7c387 0 387-151.3 774-151.3" />
-                </g>
-                <g>
-                    <path class="s22" d="m152 221.9c387 0 387-121.2 774-121.2" />
-                </g>
-                <g>
-                    <path class="s17" d="m152 203.3c387 0 387 291.8 774 291.8" />
-                </g>
-                <g>
-                    <path class="s22" d="m152 219.9c387 0 387-209.4 774-209.4" />
-                </g>
-                <g>
-                    <path class="s13" d="m152 350.6c387 0 387-18.1 774-18.1" />
-                </g>
-                <g>
-                    <path class="s18" d="m152 185.5c387 0 387-164 774-164" />
-                </g>
-                <g>
-                    <path class="s6" d="m152 312c387 0 387-279.5 774-279.5" />
-                </g>
-                <g>
-                    <path class="s23" d="m152 227.5c387 0 387-26.1 774-26.1" />
-                </g>
-                <g>
-                    <path class="s13" d="m152 334.3c387 0 387-50 774-50" />
-                </g>
-                <g>
-                    <path class="s18" d="m152 188.6c387 0 387-1.7 774-1.7" />
-                </g>
-                <g>
-                    <path class="s18" d="m152 190.6c387 0 387 22.4 774 22.4" />
-                </g>
-                <g>
-                    <path class="s22" d="m152 220.9c387 0 387-177.3 774-177.3" />
-                </g>
-                <g>
-                    <path class="s2" d="m152 330.8c387 0 387-116.3 774-116.3" />
-                </g>
-                <g>
-                    <path class="s18" d="m152 194.6c387 0 387 134.9 774 134.9" />
-                </g>
-                <g>
-                    <path class="s23" d="m152 223.4c387 0 387-110.2 774-110.2" />
-                </g>
-                <g>
-                    <path class="s18" d="m152 189.6c387 0 387 10.3 774 10.3" />
-                </g>
-                <g>
-                    <path class="s6" d="m152 391.2c387 0 387 92.4 774 92.4" />
-                </g>
-                <g>
-                    <path class="s2" d="m152 319.6c387 0 387-194.4 774-194.4" />
-                </g>
-                <g>
-                    <path class="s19" d="m152 241.2c387 0 387 29 774 29" />
-                </g>
-                <g>
-                    <path class="s18" d="m152 192.6c387 0 387 75.6 774 75.6" />
-                </g>
-                <g>
-                    <path class="s23" d="m152 225.4c387 0 387-88.2 774-88.2" />
-                </g>
-                <g>
-                    <path class="s2" d="m152 321.7c387 0 387-172.4 774-172.4" />
-                </g>
-                <g>
-                    <path class="s18" d="m152 195.7c387 0 387 167 774 167" />
-                </g>
-                <g>
-                    <path class="s18" d="m152 186.5c387 0 387-131.9 774-131.9" />
-                </g>
-                <g>
-                    <path class="s6" d="m152 313c387 0 387-247.4 774-247.4" />
-                </g>
-            </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1050 600">
+  <!-- Generator: Adobe Illustrator 29.6.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 207)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke-width: 5.1px;
+      }
 
-            <g id="profes" class="t24">
-                <text id="Mónica Santibañez*" style="transform: matrix(1, 0, 0, 1, 937, 13.507);" class="asterisco">Mónica Santibañez*</text>
-                <text id="Macarena Ruiz*" style="transform: matrix(1, 0, 0, 1, 937, 24.522);" class="asterisco">
-                    Macarena Ruiz*
-                </text>
-                <text id="Hans Stange" style="transform: matrix(1, 0, 0, 1, 937, 35.536);">
-                    Hans Stange
-                </text>
-                <text id="Raúl Molina*" style="transform: matrix(1, 0, 0, 1, 937, 46.551);" class="asterisco">
-                    Raúl Molina*
-                </text>
-                <text id="Rebeca Silva" style="transform: matrix(1, 0, 0, 1, 937, 57.565);">
-                    Rebeca Silva
-                </text>
-                <text id="Alfredo Mora" style="transform: matrix(1, 0, 0, 1, 937, 68.58);">
-                    Alfredo Mora
-                </text>
-                <text id="Mauricio Vico" style="transform: matrix(1, 0, 0, 1, 937, 80.101);">
-                    Mauricio Vico
-                </text>
-                <text id="Bruno Perelli" style="transform: matrix(1, 0, 0, 1, 937, 92.13);">
-                    Bruno Perelli
-                </text>
-                <text id="Juan Carlos Lepe*" style="transform: matrix(1, 0, 0, 1, 937, 104.159);" class="asterisco">
-                    Juan Carlos Lepe*
-                </text>
-                <text id="René Perea" style="transform: matrix(1, 0, 0, 1, 937, 116.188);">
-                    René Perea
-                </text>
-                <text id="Iván Méndez" style="transform: matrix(1, 0, 0, 1, 937, 128.217);">
-                    Iván Méndez
-                </text>
-                <text id="Paola Benavides*" style="transform: matrix(1, 0, 0, 1, 937, 140.246);" class="asterisco">
-                    Paola Benavides*
-                </text>
-                <text id="Trinidad Jove*" style="transform: matrix(1, 0, 0, 1, 937, 152.275);" class="asterisco">
-                    Trinidad Jove*
-                </text>
-                <text id="Cristián Gómez" style="transform: matrix(1, 0, 0, 1, 937, 164.811);">
-                    Cristián Gómez
-                </text>
-                <text id="Daniel Reyes" style="transform: matrix(1, 0, 0, 1, 937, 177.855);">
-                    Daniel Reyes
-                </text>
-                <text id="Osvaldo Zorzano" style="transform: matrix(1, 0, 0, 1, 937, 190.898);">
-                    Osvaldo Zorzano
-                </text>
-                <text id="Felix Maldonado" style="transform: matrix(1, 0, 0, 1, 937, 203.942);">
-                    Felix Maldonado
-                </text>
-                <text id="Gabriela Pradenas" style="transform: matrix(1, 0, 0, 1, 937, 216.985);">
-                    Gabriela Pradenas
-                </text>
-                <text id="Mauricio Tapia" style="transform: matrix(1, 0, 0, 1, 937, 230.536);">
-                    Mauricio Tapia
-                </text>
-                <text id="Lorna Lares" style="transform: matrix(1, 0, 0, 1, 937, 244.594);">
-                    Lorna Lares
-                </text>
-                <text id="Pablo Nuñez" style="transform: matrix(1, 0, 0, 1, 937, 258.652);">
-                    Pablo Nuñez
-                </text>
-                <text id="Antonio Marín" style="transform: matrix(1, 0, 0, 1, 937, 272.71);">
-                    Antonio Marín
-                </text>
-                <text id="Sebastián Pagueguy" style="transform: matrix(1, 0, 0, 1, 937, 287.275);">
-                    Sebastián Pagueguy
-                </text>
-                <text id="Pamela Gatica" style="transform: matrix(1, 0, 0, 1, 937, 302.855);">
-                    Pamela Gatica
-                </text>
-                <text id="María Paz Morales*" style="transform: matrix(1, 0, 0, 1, 937, 318.942);" class="asterisco">
-                    María Paz Morales*
-                </text>
-                <text id="Mariana Young*" style="transform: matrix(1, 0, 0, 1, 937, 335.029);"  class="asterisco">
-                    Mariana Young*
-                </text>
-                <text id="Roberto Osses" style="transform: matrix(1, 0, 0, 1, 937, 351.623);">
-                    Roberto Osses
-                </text>
-                <text id="Sergio Donoso" style="transform: matrix(1, 0, 0, 1, 937, 368.725);">
-                    Sergio Donoso
-                </text>
-                <text id="Paola De la Sotta" style="transform: matrix(1, 0, 0, 1, 937, 385.826);">
-                    Paola De la Sotta
-                </text>
-                <text id="Leonardo Soto" style="transform: matrix(1, 0, 0, 1, 937, 403.435);">
-                    Leonardo Soto
-                </text>
-                <text id="Felipe Cortez" style="transform: matrix(1, 0, 0, 1, 937, 422.058);">
-                    Felipe Cortez
-                </text>
-                <text id="Eduardo Castillo" style="transform: matrix(1, 0, 0, 1, 937, 442.188);">
-                    Eduardo Castillo
-                </text>
-                <text id="Jenny Abud" style="transform: matrix(1, 0, 0, 1, 938, 460.826);">
-                    Jenny Abud
-                </text>
-                <text id="Andrea Wechsler*" style="transform: matrix(1, 0, 0, 1, 937, 482.478);" class="asterisco">
-                    Andrea Wechsler*
-                </text>
-                <text id="Rodrigo Dueñas" style="transform: matrix(1, 0, 0, 1, 937, 504.145);">
-                    Rodrigo Dueñas
-                </text>
-                <text id="Rubén Jacob" style="transform: matrix(1, 0, 0, 1, 937, 525.826);">
-                    Rubén Jacob
-                </text>
-                <text id="Verónica Ode" style="transform: matrix(1, 0, 0, 1, 937, 551.029);">
-                    Verónica Ode
-                </text>
-                <text id="Pablo Domínguez" style="transform: matrix(1, 0, 0, 1, 937, 580.319);">
-                    Pablo Domínguez
-                </text>
-            </g>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25 {
+        isolation: isolate;
+      }
 
-            <g id="titulos" class="t24">
-                <text id="Diseñador/a" style="transform: matrix(1, 0, 0, 1, 139, 200.174);">
-                    <tspan x="-63" y="0">Diseñador(a)</tspan>
-                </text>
-                <text id="Diseñador/a con mención Industri" style="transform: matrix(1, 0, 0, 1, 139, 259.435);">
-                    <tspan x="-130" y="0">Diseñador(a) con mención</tspan>
-                    <tspan y="0" class="t24"></tspan>
-                    <tspan x="-103" y="13">Industrial y Servicios</tspan>
-                </text>
-                <text id="Diseñador/a con mención en Visua" style="transform: matrix(1, 0, 0, 1, 139, 363.261);">
-                    <tspan x="-130" y="0">Diseñador(a) con mención</tspan>
-                    <tspan y="0" class="t24"></tspan>
-                    <tspan x="-115" y="13">en Visualidad y Medios</tspan>
-                </text>
-            </g>
-        </g>
+      .st0, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st10, .st11, .st12, .st13, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25 {
+        fill: none;
+        mix-blend-mode: multiply;
+      }
+
+      .st0, .st13, .st15, .st16, .st17, .st19, .st20, .st21, .st22, .st25 {
+        stroke: #017d49;
+      }
+
+      .st1, .st9, .st26 {
+        font-family: ArialMT, Arial;
+        font-size: 11px;
+      }
+
+      .st2, .st3, .st4, .st5, .st7, .st11, .st18, .st23, .st24 {
+        stroke: #014b94;
+      }
+
+      .st2, .st21 {
+        stroke-width: 10.1px;
+      }
+
+      .st3, .st10 {
+        stroke-width: 4.1px;
+      }
+
+      .st4, .st6, .st13 {
+        stroke-width: 3px;
+      }
+
+      .st5, .st8, .st20 {
+        stroke-width: 2px;
+      }
+
+      .st6, .st8, .st10, .st12 {
+        stroke: #fed442;
+      }
+
+      .st7, .st19 {
+        stroke-width: 6.1px;
+      }
+
+      .st9 {
+        fill: #666;
+      }
+
+      .st11 {
+        stroke-width: 22.3px;
+      }
+
+      .st15, .st24 {
+        stroke-width: 7.1px;
+      }
+
+      .st16 {
+        stroke-width: 9.1px;
+      }
+
+      .st17 {
+        stroke-width: 8.1px;
+      }
+
+      .st23 {
+        stroke-width: 13.2px;
+      }
+
+      .st25 {
+        stroke-width: 12.2px;
+      }
+    </style>
+  </defs>
+  <g class="st14">
+    <g id="Capa_1">
+      <g>
+        <path d="M926,10h3v1h-3v-1Z"/>
+        <path d="M926,21h3v1h-3v-1Z"/>
+        <path d="M926,32h3v1h-3v-1Z"/>
+        <path d="M926,43h3v1.1h-3v-1.1Z"/>
+        <path d="M926,54.1h3v1h-3v-1Z"/>
+        <path d="M926,65.1h3v1h-3v-1Z"/>
+        <path d="M926,76.1h3v2h-3v-2Z"/>
+        <path d="M926,88.1h3v2h-3v-2Z"/>
+        <path d="M926,100.1h3v2.1h-3v-2.1Z"/>
+        <path d="M926,112.2h3v2h-3v-2Z"/>
+        <path d="M926,124.2h3v2h-3v-2Z"/>
+        <path d="M926,136.2h3v2.1h-3v-2.1Z"/>
+        <path d="M926,148.3h3v2h-3v-2Z"/>
+        <path d="M926,160.3h3v3h-3v-3Z"/>
+        <path d="M926,173.3h3v3.1h-3v-3.1Z"/>
+        <path d="M926,186.4h3v3h-3v-3Z"/>
+        <path d="M926,199.4h3v3.1h-3v-3.1Z"/>
+        <path d="M926,212.5h3v3h-3v-3Z"/>
+        <path d="M926,225.5h3v4.1h-3v-4.1Z"/>
+        <path d="M926,239.6h3v4h-3v-4Z"/>
+        <path d="M926,253.6h3v4.1h-3v-4.1Z"/>
+        <path d="M926,267.7h3v4h-3v-4Z"/>
+        <path d="M926,281.7h3v5.1h-3v-5.1Z"/>
+        <path d="M926,296.8h3v6.1h-3v-6.1Z"/>
+        <path d="M926,312.9h3v6.1h-3v-6.1Z"/>
+        <path d="M926,329h3v6.1h-3v-6.1Z"/>
+        <path d="M926,345.1h3v7.1h-3v-7.1Z"/>
+        <path d="M926,362.2h3v7.1h-3v-7.1Z"/>
+        <path d="M926,379.3h3v7.1h-3v-7.1Z"/>
+        <path d="M926,396.4h3v8.1h-3v-8.1Z"/>
+        <path d="M926,414.5h3v9.1h-3v-9.1Z"/>
+        <path d="M926,433.6h3v9.2h-3v-9.2Z"/>
+        <path d="M926,452.8h3v10.1h-3v-10.1Z"/>
+        <path d="M926,472.9h3v11.2h-3v-11.2Z"/>
+        <path d="M926,494.1h3v12.1h-3v-12.1Z"/>
+        <path d="M926,516.2h3v13.2h-3v-13.2Z"/>
+        <path d="M926,539.4h3v15.2h-3v-15.2Z"/>
+        <path d="M149,185h3v24.3h-3v-24.3Z"/>
+        <path d="M926,564.6h3v25.4h-3v-25.4Z"/>
+        <path d="M149,219.3h3v82.2h-3v-82.2Z"/>
+        <path d="M149,311.5h3v103.5h-3v-103.5Z"/>
+      </g>
+      <path class="st6" d="M152,205.8c387,0,387,335.1,774,335.1"/>
+      <path class="st10" d="M152,198.2c387,0,387,237.5,774,237.5"/>
+      <path class="st8" d="M152,201.2c387,0,387,252.6,774,252.6"/>
+      <path class="st12" d="M152,187.5c387,0,387-13.7,774-13.7"/>
+      <path class="st8" d="M152,208.3c387,0,387,357.4,774,357.4"/>
+      <path class="st12" d="M152,191.6c387,0,387,62.5,774,62.5"/>
+      <path class="st12" d="M152,193.6c387,0,387,103.7,774,103.7"/>
+      <path class="st8" d="M152,203.3c387,0,387,291.8,774,291.8"/>
+      <path class="st12" d="M152,185.5c387,0,387-164,774-164"/>
+      <path class="st12" d="M152,188.6c387,0,387-1.7,774-1.7"/>
+      <path class="st12" d="M152,190.6c387,0,387,22.4,774,22.4"/>
+      <path class="st12" d="M152,194.6c387,0,387,134.9,774,134.9"/>
+      <path class="st12" d="M152,189.6c387,0,387,10.3,774,10.3"/>
+      <path class="st12" d="M152,192.6c387,0,387,75.6,774,75.6"/>
+      <path class="st3" d="M152,230.5c387,0,387-3,774-3"/>
+      <path class="st3" d="M152,234.6c387,0,387,7,774,7"/>
+      <path class="st11" d="M152,290.4c387,0,387,287.4,774,287.4"/>
+      <path class="st23" d="M152,272.6c387,0,387,250.2,774,250.2"/>
+      <path class="st2" d="M152,260.9c387,0,387,217.1,774,217.1"/>
+      <path class="st7" d="M152,245.7c387,0,387,120.5,774,120.5"/>
+      <path class="st4" d="M152,238.1c387,0,387,18.1,774,18.1"/>
+      <path class="st24" d="M152,252.3c387,0,387,130.5,774,130.5"/>
+      <path class="st18" d="M152,221.9c387,0,387-121.2,774-121.2"/>
+      <path class="st18" d="M152,219.9c387,0,387-209.4,774-209.4"/>
+      <path class="st5" d="M152,227.5c387,0,387-26.1,774-26.1"/>
+      <path class="st18" d="M152,220.9c387,0,387-177.3,774-177.3"/>
+      <path class="st5" d="M152,223.4c387,0,387-110.2,774-110.2"/>
+      <path class="st4" d="M152,241.2c387,0,387,29,774,29"/>
+      <path class="st5" d="M152,225.4c387,0,387-88.2,774-88.2"/>
+      <path class="st12" d="M152,195.7c387,0,387,167,774,167"/>
+      <path class="st12" d="M152,186.5c387,0,387-131.9,774-131.9"/>
+      <path class="st16" d="M152,372.9c387,0,387,46.2,774,46.2"/>
+      <path class="st20" d="M152,314.6c387,0,387-237.5,774-237.5"/>
+      <path class="st13" d="M152,324.2c387,0,387-162.4,774-162.4"/>
+      <path class="st22" d="M152,414.5c387,0,387,175,774,175"/>
+      <path class="st15" d="M152,356.7c387,0,387-8.1,774-8.1"/>
+      <path class="st25" d="M152,407.9c387,0,387,140.7,774,140.7"/>
+      <path class="st0" d="M152,380c387,0,387,60.2,774,60.2"/>
+      <path class="st21" d="M152,396.7c387,0,387,104.5,774,104.5"/>
+      <path class="st17" d="M152,386.6c387,0,387,72.2,774,72.2"/>
+      <path class="st20" d="M152,316.6c387,0,387-227.5,774-227.5"/>
+      <path class="st22" d="M152,318.1c387,0,387-216.4,774-216.4"/>
+      <path class="st20" d="M152,328.8c387,0,387-140.4,774-140.4"/>
+      <path class="st0" d="M152,339.4c387,0,387-39,774-39"/>
+      <path class="st17" d="M152,364.3c387,0,387,36.1,774,36.1"/>
+      <path class="st19" d="M152,345c387,0,387-29.1,774-29.1"/>
+      <path class="st20" d="M152,326.7c387,0,387-151.3,774-151.3"/>
+      <path class="st0" d="M152,350.6c387,0,387-18.1,774-18.1"/>
+      <path class="st22" d="M152,312c387,0,387-279.5,774-279.5"/>
+      <path class="st0" d="M152,334.3c387,0,387-50,774-50"/>
+      <path class="st20" d="M152,330.8c387,0,387-116.3,774-116.3"/>
+      <path class="st22" d="M152,391.2c387,0,387,92.4,774,92.4"/>
+      <path class="st20" d="M152,319.6c387,0,387-194.4,774-194.4"/>
+      <path class="st20" d="M152,321.7c387,0,387-172.4,774-172.4"/>
+      <path class="st22" d="M152,313c387,0,387-247.4,774-247.4"/>
+      <text id="Mónica_Santibañez_x2A_" class="st9" transform="translate(936.26 13.46)"><tspan x="0" y="0">Mónica Santibañez*</tspan></text>
+      <text id="Macarena_Ruiz_x2A_" class="st9" transform="translate(936.26 25.28)"><tspan x="0" y="0">Macarena Ruiz*</tspan></text>
+      <text id="Hans_Stange" class="st1" transform="translate(936.26 35.68)"><tspan x="0" y="0">Hans Stange</tspan></text>
+      <text id="Raúl_Molina_x2A_" class="st9" transform="translate(936.26 46.76)"><tspan x="0" y="0">Raúl Molina*</tspan></text>
+      <text id="Rebeca_Silva" class="st1" transform="translate(936.26 58.46)"><tspan x="0" y="0">Rebeca Silva</tspan></text>
+      <text id="Alfredo_Mora" class="st1" transform="translate(936.27 70.64)"><tspan x="0" y="0">Alfredo Mora</tspan></text>
+      <text id="Mauricio_Vico" class="st1" transform="translate(936.26 82.17)"><tspan x="0" y="0">Mauricio Vico</tspan></text>
+      <text id="Bruno_Perelli" class="st1" transform="translate(936.26 93.16)"><tspan x="0" y="0">Bruno Perelli</tspan></text>
+      <text id="Juan_Carlos_Lepe_x2A_" class="st9" transform="translate(936.26 104.26)"><tspan x="0" y="0">Juan Carlos Lepe*</tspan></text>
+      <text id="René_Perea" class="st1" transform="translate(936.26 117.43)"><tspan x="0" y="0">René Perea</tspan></text>
+      <text id="Iván_Méndez" class="st1" transform="translate(936.26 129.43)"><tspan x="0" y="0">Iván Méndez</tspan></text>
+      <text id="Paola_Benavides_x2A_" class="st9" transform="translate(936.26 141.36)"><tspan x="0" y="0">Paola Benavides*</tspan></text>
+      <text id="Trinidad_Jove_x2A_" class="st9" transform="translate(936.26 152.03)"><tspan x="0" y="0">Trinidad Jove*</tspan></text>
+      <text id="Cristián_Gómez" class="st1" transform="translate(936.26 164.77)"><tspan x="0" y="0">Cristián Gómez</tspan></text>
+      <text id="Daniel_Reyes" class="st1" transform="translate(936.26 178.48)"><tspan x="0" y="0">Daniel Reyes</tspan></text>
+      <text id="Osvaldo_Zorzano" class="st1" transform="translate(936.26 191.6)"><tspan x="0" y="0">Osvaldo Zorzano</tspan></text>
+      <text id="Felix_Maldonado" class="st1" transform="translate(936.26 205.17)"><tspan x="0" y="0">Felix Maldonado</tspan></text>
+      <text id="Gabriela_Pradenas" class="st1" transform="translate(936.26 217.74)"><tspan x="0" y="0">Gabriela Pradenas</tspan></text>
+      <text id="Mauricio_Tapia" class="st1" transform="translate(936.26 231.45)"><tspan x="0" y="0">Mauricio Tapia</tspan></text>
+      <text id="Lorna_Lares" class="st1" transform="translate(936.26 245.7)"><tspan x="0" y="0">Lorna Lares</tspan></text>
+      <text id="Pablo_Nuñez" class="st1" transform="translate(936.26 259.43)"><tspan x="0" y="0">Pablo Nuñez</tspan></text>
+      <text id="Antonio_Marín" class="st1" transform="translate(936.27 273.83)"><tspan x="0" y="0">Antonio Marín</tspan></text>
+      <text id="Sebastián_Pagueguy" class="st1" transform="translate(936.26 288.91)"><tspan x="0" y="0">Sebastián Pagueguy</tspan></text>
+      <text id="Pamela_Gatica" class="st1" transform="translate(936.26 304.53)"><tspan x="0" y="0">Pamela Gatica</tspan></text>
+      <text id="María_Paz_Morales_x2A_" class="st9" transform="translate(936.26 320.43)"><tspan x="0" y="0">María Paz Morales*</tspan></text>
+      <text id="Mariana_Young_x2A_" class="st9" transform="translate(936.26 337.17)"><tspan x="0" y="0">Mariana Young*</tspan></text>
+      <text id="Roberto_Osses" class="st1" transform="translate(936.26 354.12)"><tspan x="0" y="0">Roberto Osses</tspan></text>
+      <text id="Sergio_Donoso" class="st1" transform="translate(936.26 370.13)"><tspan x="0" y="0">Sergio Donoso</tspan></text>
+      <text id="Paola_De_la_Sotta" class="st1" transform="translate(936.26 386.4)"><tspan x="0" y="0">Paola De la Sotta</tspan></text>
+      <text id="Leonardo_Soto" class="st1" transform="translate(936.26 404.5)"><tspan x="0" y="0">Leonardo Soto</tspan></text>
+      <text id="Felipe_Cortez" class="st1" transform="translate(936.26 423.6)"><tspan x="0" y="0">Felipe Cortez</tspan></text>
+      <text id="Eduardo_Castillo" class="st1" transform="translate(936.26 442.8)"><tspan x="0" y="0">Eduardo Castillo</tspan></text>
+      <text id="Jenny_Abud" class="st1" transform="translate(936.26 462.9)"><tspan x="0" y="0">Jenny Abud</tspan></text>
+      <text id="Andrea_Wechsler_x2A_" class="st9" transform="translate(936.27 482.07)"><tspan x="0" y="0">Andrea Wechsler*</tspan></text>
+      <text id="Rodrigo_Dueñas" class="st1" transform="translate(936.26 503.85)"><tspan x="0" y="0">Rodrigo Dueñas</tspan></text>
+      <text id="Rubén_Jacob" class="st1" transform="translate(936.26 526.17)"><tspan x="0" y="0">Rubén Jacob</tspan></text>
+      <text id="Verónica_Ode" class="st1" transform="translate(936.26 550.79)"><tspan x="0" y="0">Verónica Ode</tspan></text>
+      <text id="Pablo_Domínguez" class="st1" transform="translate(936.26 582.2)"><tspan x="0" y="0">Pablo Domínguez</tspan></text>
+      <g id="Diseñador_x2F_a" class="st14">
+        <text class="st1" transform="translate(66.32 199.9)"><tspan x="0" y="0">Diseñador(a)</tspan></text>
+      </g>
+      <g id="Diseñador_x2F_a_con_mención_Industri" class="st14">
+        <text class="st1" transform="translate(13.72 263.7)"><tspan x="0" y="0">Diseñador(a) con mención</tspan></text>
+        <text class="st26" transform="translate(142.72 263.7)"><tspan x="0" y="0"> </tspan></text>
+        <text class="st1" transform="translate(40.72 276.7)"><tspan x="0" y="0">Industrial y Servicios</tspan></text>
+      </g>
+      <g id="Diseñador_x2F_a_con_mención_en_Visua" class="st14">
+        <text class="st1" transform="translate(12.87 350.2)"><tspan x="0" y="0">Diseñador(a) con mención</tspan></text>
+        <text class="st26" transform="translate(141.88 350.2)"><tspan x="0" y="0"> </tspan></text>
+        <text class="st1" transform="translate(27.87 363.2)"><tspan x="0" y="0">en Visualidad y Medios</tspan></text>
+      </g>
+    </g>
+  </g>
 </svg>
